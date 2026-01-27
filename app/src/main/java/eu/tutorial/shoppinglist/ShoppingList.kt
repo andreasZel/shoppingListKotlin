@@ -76,7 +76,7 @@ fun ShoppingListApp() {
         }
     }
 
-    if (!showDialog) {
+    if (showDialog) {
         AlertDialog(
             onDismissRequest = { showDialog = false },
             confirmButton = {
